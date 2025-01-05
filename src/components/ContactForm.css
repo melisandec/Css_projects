@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+.contact-form {
+  font-family: "Orbitron", sans-serif;
+  background-color: #1a1a2e;
+  color: #16e0bd;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(22, 224, 189, 0.5);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2em;
+  text-shadow: 0 0 10px rgba(22, 224, 189, 0.7);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0f3460;
+  color: #16e0bd;
+  font-family: "Orbitron", sans-serif;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(22, 224, 189, 0.7);
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e94560;
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #16e0bd;
+  color: #1a1a2e;
+}
+
+.contact-form button:disabled {
+  background-color: #757575;
+  cursor: not-allowed;
+}

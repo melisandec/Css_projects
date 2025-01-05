@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap");
+
+.header {
+  font-family: "Orbitron", sans-serif;
+  background-color: #1a1a2e;
+  color: #16e0bd;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(22, 224, 189, 0.5);
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: #16e0bd;
+  margin-bottom: 1rem;
+  text-shadow: 0 3px 10px rgba(13, 247, 208, 0.7);
+}
+
+.header p {
+  font-family: "Roboto", sans-serif;
+  color: #ebebeb;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.header p:last-of-type {
+  font-size: 0.9em;
+  margin-top: 1rem;
+}
+
+.header nav {
+  margin-top: 2rem;
+}
+
+.header nav a {
+  margin: 0 15px;
+  color: #16e0bd;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background-color: #0f3460;
+}
+
+.header nav a:hover {
+  background-color: #16e0bd;
+  color: #1a1a2e;
+  box-shadow: 0 0 15px rgba(22, 224, 189, 0.7);
+}

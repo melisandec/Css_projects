@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+.data-visualization {
+  font-family: "Orbitron", sans-serif;
+  background-color: #ffffff;
+  color: #16e0bd;
+  padding: 20px;
+
+  box-shadow: 0 0 20px rgba(22, 224, 189, 0.5);
+}
+
+.data-visualization h2 {
+  font-size: 1.5em;
+  color: #303231;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px rgba(22, 224, 189, 0.7);
+}
+
+.data-visualization table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: 20px;
+}
+
+.data-visualization th {
+  background-color: #0f3460;
+  color: #16e0bd;
+  padding: 15px;
+  text-align: left;
+  border-radius: 8px 8px 0 0;
+}
+
+.data-visualization td {
+  background-color: #16213e;
+  padding: 15px;
+  border-bottom: 2px solid #16e0bd;
+}
+
+.data-visualization tr:last-child td {
+  border-radius: 0 0 8px 8px;
+}
+
+.data-visualization .recharts-wrapper {
+  margin-top: 40px;
+}
+
+.data-visualization .recharts-cartesian-axis-tick-value {
+  fill: #16e0bd;
+}
+
+.data-visualization .recharts-tooltip-wrapper {
+  background-color: #0f3460 !important;
+  border: 1px solid #16e0bd !important;
+  color: #0f3460 !important;
+  border-radius: 8px;
+}
+
+.data-visualization .recharts-tooltip-item {
+  color: #0f3460 !important;
+}
